@@ -1,0 +1,7 @@
+C:\Users\zipla\source\repos\Kraskal\Kraskal\bin\Debug\Kraskal.exe.config
+C:\Users\zipla\source\repos\Kraskal\Kraskal\bin\Debug\Kraskal.exe
+C:\Users\zipla\source\repos\Kraskal\Kraskal\bin\Debug\Kraskal.pdb
+C:\Users\zipla\source\repos\Kraskal\Kraskal\obj\Debug\Kraskal.csprojAssemblyReference.cache
+C:\Users\zipla\source\repos\Kraskal\Kraskal\obj\Debug\Kraskal.csproj.CoreCompileInputs.cache
+C:\Users\zipla\source\repos\Kraskal\Kraskal\obj\Debug\Kraskal.exe
+C:\Users\zipla\source\repos\Kraskal\Kraskal\obj\Debug\Kraskal.pdb

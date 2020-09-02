@@ -1,0 +1,102 @@
+.page-footer {
+	padding-top: 27px;
+	background-color: #0b0a0a;
+	color: #8f8e91;
+	.container {
+		padding-bottom: 68px;
+	}
+	h4 {
+		color: #fff;
+		font-size: 18px;
+		margin-bottom: 17px;
+	}
+	&_info {
+		p {
+			max-width: 322px;
+			font-weight: 100;
+		}
+	}
+	&_contact {
+		.social-links {
+			a:hover {
+				i {
+					color: #fffcf4;
+				}
+				.social-links_link {
+					border-color: #fffcf4;
+					&::before {
+						border-color: #fffcf4;
+
+					}
+				}
+			}
+			i {
+				font-size: 20px;
+				color: #8f8e91;
+				margin-top: 50%;
+				margin-left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				transition-duration: 0.2s;
+			}
+			&_link {
+				width: 40px;
+				height: 40px;
+				border: 2px solid #8f8e91;
+				margin-right: 6px;
+				display: inline-block;
+				position: relative;
+				transition-duration: 0.2s;
+				&::before {
+					transition-duration: 0.2s;
+					position: absolute;
+					content: "";
+					width: 40px;
+					height: 40px;
+					border: 2px solid #8f8e91;
+					border-radius: 10px;
+					left: -2px;
+					top: -2px;
+				}
+			}
+
+		}
+	}
+	&_bottom {
+		background-color: #000000;
+		p {
+			margin: 30px 0;
+		}
+	}
+	.subscribe {
+		input {
+			transition-duration: 0.2s;
+			border: 1px solid #8f8e91;
+			margin-bottom: 15px;
+			width: 100%;
+			max-width: 250px;
+			font-weight: 300;
+			color: #fffcf4;
+			padding: 12px 9px;
+			background-color: transparent;
+			&:focus {
+				outline: none;
+				border-color: #fffcf4;
+			}
+		}
+		button {
+			transition-duration: 0.2s;
+			padding: 10px 16px;
+			color: #ffffff;
+			font-size: 16px;
+			background-color: #1dde85;
+			border: none;
+			&:hover {
+				background-color: #1abd72;
+			}
+			&:active {
+				background-color: #22c87b;
+			}
+		}
+	
+	}
+}

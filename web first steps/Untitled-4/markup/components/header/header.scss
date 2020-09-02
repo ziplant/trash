@@ -1,0 +1,30 @@
+
+.main-header {
+	color: #fffcf4;
+	position: relative;
+	background-color: #1a1a1a;
+	height: 84vh;
+	min-height: 300px;
+	max-height: 1200px;
+	.container {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+	h1 {
+		font-size: 48px;
+		margin-bottom: 20px;
+		font-family: $exo;
+		.foinni-theme {
+			font-weight: 900;
+		}
+	}
+	p {
+		font-size: 18px;
+		max-width: 895px;
+		padding: 0px 10px;
+		margin: auto;
+		line-height: 36px;
+	}
+}

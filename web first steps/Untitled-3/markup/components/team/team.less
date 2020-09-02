@@ -1,0 +1,59 @@
+
+.team {
+	padding-top: 95px;
+	span {
+		display: block;
+	}
+	&_item {
+		position: relative;
+		box-sizing: border-box;
+	}
+	&_info {
+		width: 100% - 10px;
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		.trans;
+		bottom: 0;
+		left: 15px;
+	}
+	&_name {
+		padding: 20px 0 12px;
+		background-color: #36a8ff;
+		h5 {
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #fff;
+			font-size: 13px;
+			margin: 0;
+		}
+		p {
+			.lora;
+			margin: 0;
+			font-weight: italic;
+			color: #fff;
+		}
+	}
+	&_links {
+		padding: 19px 0;
+		font-size: 24px;
+		background-color: #ffaf36;
+		a {
+			color: #fff;
+			margin: 0 6px;
+			&:hover {
+				color: #f0f0f0;
+			}
+		}
+	}
+	&_info:hover,
+	img:hover ~ .team_info {
+		visibility: visible;
+		opacity: .9;	
+	}
+	img {
+		width: 100%;
+		max-width: 265px;
+	}
+}
+

@@ -1,0 +1,55 @@
+@media screen and (max-width: 650px) {
+	.works-slider-nav {
+		li {
+			font-size: 14px;
+			margin: 0 10px 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.main-header {
+		h1 {
+			font-size: 38px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+	.about {
+		&-item {
+			width: 100%;
+			p {
+				padding: 0 10px 20px;
+			}
+		}
+	}
+	.meet-item {
+		width: 100%;
+	}
+	.plans-item {
+		width: 100%;
+	}
+	.message-form {
+		textarea {
+			height: 135px;
+		}
+		.input-wrap {
+			width: 100%;
+		}
+	}
+	.page-footer {
+		&_info,
+		&_contact {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.message-form {
+		button {
+			font-size: 16px;
+		}
+	}
+}

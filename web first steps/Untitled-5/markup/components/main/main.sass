@@ -1,0 +1,259 @@
+
+
+
+.main-wrapper
+	overflow: hidden
+	color: #3b434c
+	.design
+		padding-top: 100px
+		padding-bottom: 100px
+		&_item
+			margin-bottom: 30px
+
+		&_logo
+			display: inline-block
+			width: 150px
+			height: 150px
+			border: 2px solid #ededee
+			border-radius: 50%
+			& > div
+				margin: auto
+				margin-top: 31%
+
+			&-1
+				@include bg($print-design)
+
+			&-2
+				@include bg($web-design)
+
+			&-3
+				@include bg($app-design)
+
+			&-4
+				@include bg($logo-design)
+		
+		p
+			width: 150px
+			font-size: 14px
+			margin: auto
+	
+	.subscribe
+		background: url('%=static=%../img/general/subscribe-bg.jpg') no-repeat center center
+		background-size: cover
+		padding-top: 100px
+		padding-bottom: 100px
+		&_btn
+			background-color: #fe5e23
+			width: 235px
+			&:hover
+				background-color: rgba(0, 0, 0, 0.2)
+				border-color: #656a6f;
+		
+		&_email
+			min-width: 277px;
+			width: 48%
+			padding: 12px 20px
+			border: none
+			border-radius: 7px
+			font-weight: 300
+			margin: 0 19px
+			margin-bottom: 30px
+			&:focus
+				outline: none
+
+	
+	.works
+		img
+			width: 100%
+
+		&_item
+			position: relative
+			padding: 0 0.8%
+			margin-bottom: 16px
+			img
+				border-radius: 7px
+				float: left
+
+
+		&_info
+			color: #fff
+			opacity: 0
+			@extend %trans
+			transition-property: opacity
+			position: absolute
+			background-color: rgba(247, 96, 14, 0.9)
+			width: 95.8%
+			height: 100%
+			top: 0
+			left: 2%
+			border-radius: 7px
+			&:hover
+				opacity: 1
+			
+			h4
+				font-weight: 600
+				margin: 0
+				font-size: 25px
+				padding-top: 19%
+				padding-bottom: 14px
+			
+			p
+				font-size: 14px
+				line-height: 26px	
+				max-width: 250px
+				padding: 0 5px
+				margin: auto
+
+			&_btn
+				margin-top: 15%
+				color: #fff
+				background-color: rgba(255, 255, 255, 0.1)
+				border-color: #fff
+				&:hover
+					background-color: #fff
+					color: #f7600e
+					border-color: transparent
+
+		&_btn
+			color: #3b434c
+			border-color: #d8d9db
+			margin: 100px 0
+			&:hover
+				background-color: #f7600e
+				border-color: transparent
+				color: #fff
+
+
+
+.comments
+	padding-top: 104px
+	padding-bottom: 101px
+	color: #fff
+	background: url('%=static=%../img/general/slider-bg.jpg') no-repeat center center
+	background-size: cover
+	&_wrapper
+		width: 85%
+		max-width: 1200px
+		p
+			max-width: 797px
+			margin: auto
+			line-height: 40px
+			font-size: 25px
+			font-style: italic
+			padding: 50px 15px 40px
+
+			
+	&_name
+		font-size: 18px
+		font-weight: 600
+
+	img
+		margin: auto
+		border-radius: 50%
+
+
+.team
+	&_wrapper
+		padding-bottom: 170px
+
+	.slick-slide
+		display: flex
+		padding-top: 20px	
+	
+	&_item
+		padding: 0 20px
+		filter: grayscale(100%)
+		margin-bottom: 20px;
+		.img-wrap
+			position: relative
+			
+
+		.img-wrap::before
+			display: none
+			content: ""
+			position: absolute
+			width: 104%
+			height: 5px
+			top: 101%
+			left: -2%
+			z-index: 100
+			background-color: red
+			border-radius: 7px;
+				
+
+		img
+			margin: auto
+			border-radius: 7px
+			width: 100%
+			border: none
+
+		a
+
+			outline: none
+			color: #9da1a5
+
+
+		&:hover
+			img
+				transform: scale(1.04)
+				margin-top: -5px
+            	border-bottom: 5px solid red
+
+			.img-wrap::before
+				display: block
+
+
+			filter: grayscale(0)
+			p
+				color: #3b434c
+
+			h4
+				padding-top: 5px
+				a
+					color: #3b434c			
+
+		&_img-wrap
+			display: none		
+
+		
+	&_links
+		& > a
+			transform: scale(0.5)
+
+		&_fb-link
+			@include bg($fb-icon)
+
+		&_tw-link
+			@include bg($tw-icon)	
+			
+		&_google-link
+			@include bg($google-icon)
+
+
+	p
+		
+		font-size: 14px
+		color: #9da1a5
+	
+	h4
+		margin-bottom: 10px	
+		margin-top: 20px
+			
+	
+	
+
+
+	.slick-dots li button::before
+    	width: 11px
+    	height: 11px
+    	background-color: #3b434c
+    	border-radius: 50%
+    	color: transparent
+
+	.slick-dots .slick-active button::before
+	    background-color: #f7600e
+	    width: 14px
+	    height: 14px
+	    top: -2px
+	    color: transparent
+

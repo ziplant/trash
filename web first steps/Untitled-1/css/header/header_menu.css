@@ -1,0 +1,46 @@
+
+.menu_btn {
+    display: none;
+    width: 32px;
+    height: 24px;
+    background: url('../../img/icons/menu-btn.png');
+    cursor: pointer;
+}
+
+.header-top_menu {
+    display: flex;
+    flex-shrink: 0;
+}
+.menu_item {
+    margin-right: 34px;
+}
+.header-top_menu a {
+    color: #454545;
+}
+.header-top_menu a:hover {
+    text-decoration: underline;
+}
+.menu_wrapper {
+    display: flex;
+    align-items: center;
+}
+.useraccount_login {
+    color: #ffffff;
+    background-color: #de6d6e;
+    padding: 4px 13px 5px 33px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.useraccount_login::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 14px;
+    background: url("../../img/icons/shape-icon.png") no-repeat 50% 50%;
+    left: 13px;
+    top: 8px;
+}
+.useraccount_login:hover {
+    opacity: 0.95;
+}

@@ -1,0 +1,41 @@
+// Common styles of the project
+
+html, body {
+    height: 100%;
+    font-family: $roboto;
+    overflow-x: hidden;
+}
+
+.page__wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+* html .page__wrapper {
+    height: 100%;
+}
+
+img {	
+	max-width: 100%;
+}
+.works-content {
+	img {
+		width: 33.33%;
+		float: left;
+		outline: 1px solid green;
+	}
+}
+.page-header {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #1a1a1a;
+}
+.foinni-theme {
+	color: #1dde85;
+	text-transform: uppercase;
+}
+.section-head {
+	font-size: 30px;
+	color: #454546;
+	font-weight: 500;
+}

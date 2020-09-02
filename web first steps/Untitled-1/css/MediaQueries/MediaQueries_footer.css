@@ -1,0 +1,14 @@
+.page-footer_content {
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    
+}
+.page-footer_menu {
+    flex-grow: 1;
+    width: 90px;
+    margin-right: 25px;
+    
+}
+.page-footer_copyright-and-social-links {
+    margin: 30px auto 0;
+}

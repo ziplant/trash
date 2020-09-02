@@ -1,0 +1,82 @@
+
+.plans {
+	padding-top: 90px;
+	padding-bottom: 120px;
+	background-color: #fffcf4;
+	&-item {
+		padding: 0 9px;
+	}
+	&-wrap {
+		margin-top: 40px;
+		font-weight: 100;
+		color: #8f8e91;
+		&:hover {
+			p {
+				color: #1dde85;
+			}
+			.plans-content {
+				border-color: #1dde85;
+			}
+			.plans-content_price {
+				color: #fffcf4;
+				border-color: #1dde85;
+				background-color: #1dde85;
+			}
+			button {
+				border-color: transparent;
+				color: #fffcf4;
+				background-color: #1dde85;
+			}
+		}
+	}
+	&-content {
+		transition-duration: 0.2s;
+		margin-bottom: 25px;
+		border: 1px solid transparent;
+		
+		&_price {
+			transition-duration: 0.2s;
+			sup {
+				font-size: 24px;
+			}
+			padding-top: 17px;
+			padding-bottom: 17px;
+			margin-bottom: 30px;
+			border: 1px solid #a7a6a2;
+			font-size: 36px;
+			color: #454546;
+			font-family: $robotoslab;
+			font-weight: normal;
+			span {
+				font-weight: 100;
+				font-size: 18px;
+			}
+		}
+		&_desc {
+			padding: 0;
+			list-style: none;
+			li {
+				margin-bottom: 16px;
+			}
+		}
+		button {
+			transition-duration: 0.2s;
+			padding: 9px 18px;
+			margin-top: 30px;
+			border: 1px solid #9d9b98;
+			color: #585757;
+			background-color: transparent;
+			margin-bottom: 21px;
+			&:focus {
+				outline: none;
+			}
+			&:hover {
+				border-color: #9d9b98;
+				background-color: #1abd72;
+			}
+			&:active {
+				background-color: #22c87b;
+			}
+		}
+	}
+}

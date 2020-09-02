@@ -1,0 +1,211 @@
+.page-footer,
+.footer-menu a {
+    color: #ffffff;
+}
+.photo-stream_photos {
+    margin-top: 15px;
+}
+.photo-stream_photos img {
+    width: 32%;
+    max-width: 130px;
+    min-width: 100px;
+}
+.about-us_btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-bottom: 1px solid #ffea00;
+}
+.about-us_text {
+    margin-bottom: 30px;
+}
+.footer-menu li:hover {
+    background-color: #414146;
+}
+.page-footer {
+    position: relative;
+    background-color: #414146;
+}
+.main-footer {
+    display: flex;
+    margin: 0 7%;
+    font-size: 13px;
+}
+.bottom-footer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 0 7%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.main-footer_about-us {
+    margin-bottom: 30px;
+}
+.main-footer_item {
+    width: 33%;
+    margin: 25px 0;
+}
+.main-footer_head {
+    font-size: 18px;
+}
+.copyright {
+    align-self: center;
+    margin-right: 50px;
+    padding: 20px 0;
+}
+.footer-menu li {
+    margin-right: 25px;
+}
+.footer-menu a {
+    padding: 15px 8px;
+}
+
+.main-footer_tweets-and-links {
+    margin-right: 3%;
+}
+.main-footer_info-container {
+    margin-right: 3%;
+}
+.tweets_item {
+    position: relative;
+    padding-left: 40px;
+}
+.tweets_item p {
+    margin-bottom: 0;
+}
+.tweets_item::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../img/twitter-birs-icon.png") no-repeat 50% 50%;
+    left: 0;   
+}
+.tweets_tweet-date {
+    font-size: 8px;
+    color: #ffea00;
+}
+.tweets_tags {
+    color: #ffea00;
+}
+.social-links {
+    margin-top: 27px;
+}
+.social-links_item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.social-links .main-footer_head {
+    vertical-align: top;
+    margin-right: 3px;
+}
+.social-links_fb {
+    background: url("../img/social-links.png") no-repeat 0px 0px;
+}
+.social-links_google {
+    background: url("../img/social-links.png") no-repeat -32px 0px;
+}
+.social-links_tw {
+    background: url("../img/social-links.png") no-repeat -64px 0px;
+}
+.social-links_linkedin {
+    background: url("../img/social-links.png") no-repeat -96px 0px;
+}
+.social-links_youtube {
+    background: url("../img/social-links.png") no-repeat -128px 0px;
+}
+.social-links_blogger {
+    background: url("../img/social-links.png") no-repeat -160px 0px;
+}
+.social-links_rss {
+    background: url("../img/social-links.png") no-repeat -192px 0px;
+}
+.social-links_dribble {
+    background: url("../img/social-links.png") no-repeat -224px 0px;
+}
+
+.main-footer_contacts-container {
+    width: 28%;
+}
+.bottom-footer {
+    background-color: #000000;
+}
+.contact-info_adress {
+    margin-top: 40px;
+}
+.contact_item {
+    padding-left: 37px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.contact-info_adress::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../img/adress.png") no-repeat 50% 50%;
+    left: 0;    
+}
+.contact-info_phone::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../img/phone.png") no-repeat 50% 50%;
+    left: 0;    
+}
+.contact-info_email::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("../img/email.png") no-repeat 50% 50%;
+    left: 0;    
+}
+.contact-info_email a {
+    color: #ffea00;
+}
+.contact-info_email a:hover {
+    opacity: .9;
+}
+.phone-number {
+    margin-top: -15px;
+    margin-left: 50px;
+}
+.follow {
+    margin-top: 50px;
+}
+.email-form {
+    margin-top: 20px;
+}
+input[type="email"] {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #ffea00;
+}
+input[type="email"]:focus {
+    outline: none;
+}
+input[type="submit"] {
+    display: none;
+}
+.submit-btn {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    background: url("../img/email-icon.png") no-repeat 50% 50%;
+    vertical-align: middle;
+}
+input[type="email"] {
+    width: 60%;
+    max-width: 230px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-info_email a{
+        font-size: 12px;
+    }
+}

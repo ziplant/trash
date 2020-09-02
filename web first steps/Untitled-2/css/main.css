@@ -1,0 +1,37 @@
+
+body {
+    max-width: 1600px;
+    margin: auto;
+    font-family: 'KZCentury Gothic';
+}
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+.btn:hover {
+    opacity: 0.9;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 74px 0;
+}
+.wrapper_project {
+    width: 76%;
+    margin-right: 10px;
+}
+.wrapper_sidebar {
+    width: 23%;
+    min-width: 260px;
+}
+.wrapper_sidebar(:not(.popular-posts_date)) {
+    text-transform: uppercase; 
+}

@@ -1,0 +1,28 @@
+
+.projects {
+    margin-top: 45px;
+}
+.projects_item {
+    display: flex;
+    max-width: 95%;
+    width: 947px;
+    margin: auto;
+    margin-bottom: 78px;
+}
+.projects_img {
+    max-width: 199px;
+    height: 132px;
+}
+.projects_content {
+    margin-left: 25px;
+}
+.projects_title {
+    color: #404040;
+    font-size: 27px;
+    margin: 0;
+}
+.projects_text {
+    color: #8b8b8b;
+    font-size: 15px;
+    margin-top: 17px;
+}

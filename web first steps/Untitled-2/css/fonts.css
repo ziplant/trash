@@ -1,0 +1,25 @@
+
+@font-face {
+	font-family: 'Code';
+	src: url('../fonts/Code-Light.woff2') format('woff2'),
+		url('../fonts/Code-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Code';
+	src: url('../fonts/Code-Bold.woff2') format('woff2'),
+		url('../fonts/Code-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'KZCentury Gothic';
+	src: url('../fonts/KZCenturyGothic.woff2') format('woff2'),
+		url('../fonts/KZCenturyGothic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

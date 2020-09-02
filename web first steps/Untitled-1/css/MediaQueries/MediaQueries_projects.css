@@ -1,0 +1,10 @@
+.projects_item {
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+.projects_content {
+    margin: 0;
+}
+.projects_img {
+    margin-bottom: 5px;
+}
